@@ -11,6 +11,7 @@
 	<groupId>com.interland</groupId>
 	<artifactId>angularspringbackendreview</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 	<name>angularspringbackendreview</name>
 	<description>backend for angular</description>
 	<url/>

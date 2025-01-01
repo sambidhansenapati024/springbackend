@@ -17,7 +17,7 @@ import lombok.RequiredArgsConstructor;
 
 @RestController
 @RequestMapping("sub-scribe")
-@CrossOrigin(origins = "http://localhost:2726")
+@CrossOrigin(origins = "https://subscription-management-zdl4.onrender.com")
 @RequiredArgsConstructor
 public class AuthController {
 	
