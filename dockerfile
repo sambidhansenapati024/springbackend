@@ -3,7 +3,7 @@ WORKDIR /app
 
 RUN ls -la / && ls -la /app
 COPY . .
-RUN ./mvnw clean package -DskipTests
+RUN ./mvn clean package -DskipTests
 
 FROM eclipse-temurin:19-jre AS runtime
 WORKDIR /app
